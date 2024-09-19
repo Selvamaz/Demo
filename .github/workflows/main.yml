@@ -1,5 +1,4 @@
 name: Build and Package Maven Project
-
 on:
   push:
     branches:
