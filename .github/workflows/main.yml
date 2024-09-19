@@ -7,12 +7,6 @@ on:
   pull_request:
     branches:
       - master
-  workflow_dispatch:
-    inputs:
-      distribution:
-        description: 'Specify the distribution'
-        required: true
-        default: 'default-value'
 
 jobs:
   build:
