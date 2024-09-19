@@ -3,11 +3,11 @@ name: Build and Package Maven Project
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
-      
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '17'
+        java-version: '17' # Specify the JDK version
 
     - name: Cache Maven packages
       uses: actions/cache@v3
