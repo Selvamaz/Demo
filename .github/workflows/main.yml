@@ -19,7 +19,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '17' # Specify the JDK version
+        java-version: '17'
 
     - name: Cache Maven packages
       uses: actions/cache@v3
